@@ -1,0 +1,63 @@
+export const products = [
+  {
+    _id: '6374cf297fe6a41d904b6bfe',
+    name: 'Pizza quatro queijos',
+    description: 'Deliciosa pizza quatro queijos',
+    imagePath: '1668599593419-quatro-queijos.png',
+    price: '40',
+    ingredients: [
+      {
+        name: 'Mussarela',
+        icon: '🧀',
+        _id: '6374cf297fe6a41d904b6bff',
+      },
+      {
+        name: 'Parmesão',
+        icon: '🧀',
+        _id: '6374cf297fe6a41d904b6c00',
+      },
+      {
+        name: 'Gouda',
+        icon: '🧀',
+        _id: '6374cf297fe6a41d904b6c01',
+      },
+      {
+        name: 'Brie',
+        icon: '🧀',
+        _id: '6374cf297fe6a41d904b6c02',
+      },
+    ],
+    category: '637411be046aa731cd2a92ba',
+    __v: 0,
+  },
+  {
+    _id: '6374d66fbbeed2c2b7d5a6c3',
+    name: 'Coca cola',
+    description: 'Coca cola lata geladinha',
+    imagePath: '1668601455040-coca-cola.png',
+    price: '7',
+    ingredients: [],
+    category: '6374c800832c4bbecf068698',
+    __v: 0,
+  },
+  {
+    _id: '63755d81550d17ad330143b7',
+    name: 'Coca cola2',
+    description: 'Coca cola lata geladinha',
+    imagePath: '1668636033968-coca-cola.png',
+    price: '10',
+    ingredients: [],
+    category: '6374c800832c4bbecf068698',
+    __v: 0,
+  },
+  {
+    _id: '637a847cf2d3df34f36c6642',
+    name: 'Suco de laranja',
+    description: 'Suco de laranja geladão',
+    imagePath: '1668973692809-suco-de-laranja.png',
+    price: '10',
+    ingredients: [],
+    category: '6374c800832c4bbecf068698',
+    __v: 0,
+  },
+];
